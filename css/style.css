@@ -289,7 +289,12 @@ a {
 .parent-info .header-box .profile-about .job {
   font-size: 11px;
 }
-
+.parent-info .header-box .profile-about .job span.m-as-mern,
+.parent-info .header-box .profile-about .job span.e-as-mern,
+.parent-info .header-box .profile-about .job span.r-as-mern,
+.parent-info .header-box .profile-about .job span.n-as-mern {
+  color: #ffc107;
+}
 .scroll-area {
   width: 100%;
   height: calc(100vh - 30px);
@@ -407,18 +412,20 @@ a {
   height: 100%;
 }
 
-.hard-skills ul.skills li .progress-html:after {
+.hard-skills ul.skills li .progress-mongo:after {
   width: 90%;
 }
 
-.hard-skills ul.skills li .progress-css:after {
-  width: 95%;
+.hard-skills ul.skills li .progress-express:after {
+  width: 80%;
 }
 
-.hard-skills ul.skills li .progress-js:after {
-  width: 75%;
+.hard-skills ul.skills li .progress-react:after {
+  width: 85%;
 }
-
+.hard-skills ul.skills li .progress-nodejs:after {
+  width: 80%;
+}
 .knowledge-area ul.knowledge li {
   font-size: 13px;
   color: #8c8c8e;
