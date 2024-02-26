@@ -681,7 +681,7 @@ a {
   padding: 30px;
   box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   background: linear-gradient(159deg, #2d2d3a 0, #2b2b35 100%);
-  min-height: 270px;
+  min-height: fit-content;
 }
 
 .parent-content .services .box h5 {
